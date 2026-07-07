@@ -1,0 +1,575 @@
+[package]
+name = "rust-software-engineering-roadmap"
+version = "0.1.0"
+edition = "2024"
+description = "A practical collection of small Rust examples for learning software engineering concepts step by step — from zero to advanced."
+authors = ["Hassan Mohagheghian"]
+license = "MIT"
+rust-version = "1.96.1"
+
+
+[dev-dependencies]
+
+[[example]]
+name = "RSE_000_Rust_Basics__RS_01_variables_and_mutability"
+path = "RSE_000_Rust_Basics/RS_01_variables_and_mutability.rs"
+
+# [[example]]
+# name = "RSE_000_Rust_Basics__RS_02_scalar_types"
+# path = "RSE_000_Rust_Basics/RS_02_scalar_types.rs"
+
+# [[example]]
+# name = "RSE_000_Rust_Basics__RS_03_compound_types"
+# path = "RSE_000_Rust_Basics/RS_03_compound_types.rs"
+
+# [[example]]
+# name = "RSE_000_Rust_Basics__RS_04_ownership"
+# path = "RSE_000_Rust_Basics/RS_04_ownership.rs"
+
+# [[example]]
+# name = "RSE_000_Rust_Basics__RS_05_borrowing_and_references"
+# path = "RSE_000_Rust_Basics/RS_05_borrowing_and_references.rs"
+
+# [[example]]
+# name = "RSE_000_Rust_Basics__RS_06_string_types"
+# path = "RSE_000_Rust_Basics/RS_06_string_types.rs"
+
+# [[example]]
+# name = "RSE_000_Rust_Basics__RS_07_scope_and_shadowing"
+# path = "RSE_000_Rust_Basics/RS_07_scope_and_shadowing.rs"
+
+# [[example]]
+# name = "RSE_010_Functions__FN_01_basic_functions"
+# path = "RSE_010_Functions/FN_01_basic_functions.rs"
+
+# [[example]]
+# name = "RSE_010_Functions__FN_02_closures"
+# path = "RSE_010_Functions/FN_02_closures.rs"
+
+# [[example]]
+# name = "RSE_010_Functions__FN_03_iterator_basics"
+# path = "RSE_010_Functions/FN_03_iterator_basics.rs"
+
+# [[example]]
+# name = "RSE_010_Functions__FN_04_function_pointers"
+# path = "RSE_010_Functions/FN_04_function_pointers.rs"
+
+# [[example]]
+# name = "RSE_010_Functions__FN_05_closures_as_parameters"
+# path = "RSE_010_Functions/FN_05_closures_as_parameters.rs"
+
+# [[example]]
+# name = "RSE_010_Functions__FN_06_higher_order_functions"
+# path = "RSE_010_Functions/FN_06_higher_order_functions.rs"
+
+# [[example]]
+# name = "RSE_020_Control_Flow__CF_01_if_expressions"
+# path = "RSE_020_Control_Flow/CF_01_if_expressions.rs"
+
+# [[example]]
+# name = "RSE_020_Control_Flow__CF_02_pattern_matching"
+# path = "RSE_020_Control_Flow/CF_02_pattern_matching.rs"
+
+# [[example]]
+# name = "RSE_020_Control_Flow__CF_03_if_let"
+# path = "RSE_020_Control_Flow/CF_03_if_let.rs"
+
+# [[example]]
+# name = "RSE_020_Control_Flow__CF_04_while_let"
+# path = "RSE_020_Control_Flow/CF_04_while_let.rs"
+
+# [[example]]
+# name = "RSE_020_Control_Flow__CF_05_loop_expressions"
+# path = "RSE_020_Control_Flow/CF_05_loop_expressions.rs"
+
+# [[example]]
+# name = "RSE_020_Control_Flow__CF_06_iterator_adapters"
+# path = "RSE_020_Control_Flow/CF_06_iterator_adapters.rs"
+
+# [[example]]
+# name = "RSE_030_Data_Structures__DS_01_structs"
+# path = "RSE_030_Data_Structures/DS_01_structs.rs"
+
+# [[example]]
+# name = "RSE_030_Data_Structures__DS_02_enums"
+# path = "RSE_030_Data_Structures/DS_02_enums.rs"
+
+# [[example]]
+# name = "RSE_030_Data_Structures__DS_03_tuples"
+# path = "RSE_030_Data_Structures/DS_03_tuples.rs"
+
+# [[example]]
+# name = "RSE_030_Data_Structures__DS_04_vectors"
+# path = "RSE_030_Data_Structures/DS_04_vectors.rs"
+
+# [[example]]
+# name = "RSE_030_Data_Structures__DS_05_hashmaps"
+# path = "RSE_030_Data_Structures/DS_05_hashmaps.rs"
+
+# [[example]]
+# name = "RSE_030_Data_Structures__DS_06_hashsets"
+# path = "RSE_030_Data_Structures/DS_06_hashsets.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_01_result"
+# path = "RSE_040_Error_Handling/EH_01_result.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_01_result_type"
+# path = "RSE_040_Error_Handling/EH_01_result_type.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_02_option"
+# path = "RSE_040_Error_Handling/EH_02_option.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_02_option_type"
+# path = "RSE_040_Error_Handling/EH_02_option_type.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_03_custom_errors"
+# path = "RSE_040_Error_Handling/EH_03_custom_errors.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_04_panic_and_unwrap"
+# path = "RSE_040_Error_Handling/EH_04_panic_and_unwrap.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_04_the_question_mark"
+# path = "RSE_040_Error_Handling/EH_04_the_question_mark.rs"
+
+# [[example]]
+# name = "RSE_040_Error_Handling__EH_05_the_question_mark"
+# path = "RSE_040_Error_Handling/EH_05_the_question_mark.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OOP_01_struct_methods"
+# path = "RSE_050_OOP_in_Rust/OOP_01_struct_methods.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OOP_02_encapsulation"
+# path = "RSE_050_OOP_in_Rust/OOP_02_encapsulation.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OOP_03_trait_objects"
+# path = "RSE_050_OOP_in_Rust/OOP_03_trait_objects.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OOP_04_composition"
+# path = "RSE_050_OOP_in_Rust/OOP_04_composition.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OP_01_encapsulation"
+# path = "RSE_050_OOP_in_Rust/OP_01_encapsulation.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OP_02_trait_objects"
+# path = "RSE_050_OOP_in_Rust/OP_02_trait_objects.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OP_03_associated_functions"
+# path = "RSE_050_OOP_in_Rust/OP_03_associated_functions.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OP_04_methods_and_self"
+# path = "RSE_050_OOP_in_Rust/OP_04_methods_and_self.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OP_05_data_vs_behavior"
+# path = "RSE_050_OOP_in_Rust/OP_05_data_vs_behavior.rs"
+
+# [[example]]
+# name = "RSE_050_OOP_in_Rust__OP_06_newtype_pattern"
+# path = "RSE_050_OOP_in_Rust/OP_06_newtype_pattern.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GEN_01_generic_functions"
+# path = "RSE_060_Generics/GEN_01_generic_functions.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GEN_02_generic_structs"
+# path = "RSE_060_Generics/GEN_02_generic_structs.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GEN_03_trait_bounds"
+# path = "RSE_060_Generics/GEN_03_trait_bounds.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GN_01_generic_functions"
+# path = "RSE_060_Generics/GN_01_generic_functions.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GN_02_generic_structs"
+# path = "RSE_060_Generics/GN_02_generic_structs.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GN_03_trait_bounds"
+# path = "RSE_060_Generics/GN_03_trait_bounds.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GN_04_generic_enums"
+# path = "RSE_060_Generics/GN_04_generic_enums.rs"
+
+# [[example]]
+# name = "RSE_060_Generics__GN_05_where_clauses"
+# path = "RSE_060_Generics/GN_05_where_clauses.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LF_01_lifetime_annotations"
+# path = "RSE_070_Lifetimes/LF_01_lifetime_annotations.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LF_02_elision_rules"
+# path = "RSE_070_Lifetimes/LF_02_elision_rules.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LF_03_static_lifetimes"
+# path = "RSE_070_Lifetimes/LF_03_static_lifetimes.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LF_04_lifetime_in_structs"
+# path = "RSE_070_Lifetimes/LF_04_lifetime_in_structs.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LT_01_lifetime_annotations"
+# path = "RSE_070_Lifetimes/LT_01_lifetime_annotations.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LT_02_elision_rules"
+# path = "RSE_070_Lifetimes/LT_02_elision_rules.rs"
+
+# [[example]]
+# name = "RSE_070_Lifetimes__LT_03_static_lifetimes"
+# path = "RSE_070_Lifetimes/LT_03_static_lifetimes.rs"
+
+# [[example]]
+# name = "RSE_080_Modules__MD_01_mod_system"
+# path = "RSE_080_Modules/MD_01_mod_system.rs"
+
+# [[example]]
+# name = "RSE_080_Modules__MD_01_module_basics"
+# path = "RSE_080_Modules/MD_01_module_basics.rs"
+
+# [[example]]
+# name = "RSE_080_Modules__MD_02_visibility"
+# path = "RSE_080_Modules/MD_02_visibility.rs"
+
+# [[example]]
+# name = "RSE_080_Modules__MD_03_use_and_reexports"
+# path = "RSE_080_Modules/MD_03_use_and_reexports.rs"
+
+# [[example]]
+# name = "RSE_080_Modules__MD_04_file_structure"
+# path = "RSE_080_Modules/MD_04_file_structure.rs"
+
+# [[example]]
+# name = "RSE_080_Modules__MD_05_workspaces"
+# path = "RSE_080_Modules/MD_05_workspaces.rs"
+
+# [[example]]
+# name = "RSE_090_Crates__CR_01_crates_io"
+# path = "RSE_090_Crates/CR_01_crates_io.rs"
+
+# [[example]]
+# name = "RSE_090_Crates__CR_01_dependency_management"
+# path = "RSE_090_Crates/CR_01_dependency_management.rs"
+
+# [[example]]
+# name = "RSE_090_Crates__CR_02_feature_flags"
+# path = "RSE_090_Crates/CR_02_feature_flags.rs"
+
+# [[example]]
+# name = "RSE_090_Crates__CR_03_build_scripts"
+# path = "RSE_090_Crates/CR_03_build_scripts.rs"
+
+# [[example]]
+# name = "RSE_100_Smart_Pointers__SP_01_box"
+# path = "RSE_100_Smart_Pointers/SP_01_box.rs"
+
+# [[example]]
+# name = "RSE_100_Smart_Pointers__SP_02_rc"
+# path = "RSE_100_Smart_Pointers/SP_02_rc.rs"
+
+# [[example]]
+# name = "RSE_100_Smart_Pointers__SP_03_arc"
+# path = "RSE_100_Smart_Pointers/SP_03_arc.rs"
+
+# [[example]]
+# name = "RSE_100_Smart_Pointers__SP_04_refcell"
+# path = "RSE_100_Smart_Pointers/SP_04_refcell.rs"
+
+# [[example]]
+# name = "RSE_100_Smart_Pointers__SP_05_mutex"
+# path = "RSE_100_Smart_Pointers/SP_05_mutex.rs"
+
+# [[example]]
+# name = "RSE_100_Smart_Pointers__SP_06_cow"
+# path = "RSE_100_Smart_Pointers/SP_06_cow.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_01_threads"
+# path = "RSE_110_Concurrency/CC_01_threads.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_02_channels"
+# path = "RSE_110_Concurrency/CC_02_channels.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_03_async_basics"
+# path = "RSE_110_Concurrency/CC_03_async_basics.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_03_shared_state"
+# path = "RSE_110_Concurrency/CC_03_shared_state.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_04_async_await"
+# path = "RSE_110_Concurrency/CC_04_async_await.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_04_mutex_rwlock"
+# path = "RSE_110_Concurrency/CC_04_mutex_rwlock.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_05_tokio_basics"
+# path = "RSE_110_Concurrency/CC_05_tokio_basics.rs"
+
+# [[example]]
+# name = "RSE_110_Concurrency__CC_06_send_sync"
+# path = "RSE_110_Concurrency/CC_06_send_sync.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_01_trait_basics"
+# path = "RSE_120_Traits/TR_01_trait_basics.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_01_trait_objects"
+# path = "RSE_120_Traits/TR_01_trait_objects.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_02_default_methods"
+# path = "RSE_120_Traits/TR_02_default_methods.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_02_trait_objects"
+# path = "RSE_120_Traits/TR_02_trait_objects.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_03_supertraits"
+# path = "RSE_120_Traits/TR_03_supertraits.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_04_associated_types"
+# path = "RSE_120_Traits/TR_04_associated_types.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_04_trait_bounds_in_detail"
+# path = "RSE_120_Traits/TR_04_trait_bounds_in_detail.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_05_orphan_rule"
+# path = "RSE_120_Traits/TR_05_orphan_rule.rs"
+
+# [[example]]
+# name = "RSE_120_Traits__TR_06_static_vs_dynamic"
+# path = "RSE_120_Traits/TR_06_static_vs_dynamic.rs"
+
+# [[example]]
+# name = "RSE_130_Macros__MC_01_declarative_macros"
+# path = "RSE_130_Macros/MC_01_declarative_macros.rs"
+
+# [[example]]
+# name = "RSE_130_Macros__MC_02_derive_macros"
+# path = "RSE_130_Macros/MC_02_derive_macros.rs"
+
+# [[example]]
+# name = "RSE_130_Macros__MC_03_attribute_macros"
+# path = "RSE_130_Macros/MC_03_attribute_macros.rs"
+
+# [[example]]
+# name = "RSE_130_Macros__MC_03_procedural_macros"
+# path = "RSE_130_Macros/MC_03_procedural_macros.rs"
+
+# [[example]]
+# name = "RSE_130_Macros__MC_04_macro_rules_patterns"
+# path = "RSE_130_Macros/MC_04_macro_rules_patterns.rs"
+
+# [[example]]
+# name = "RSE_130_Macros__MC_05_procedural_macros"
+# path = "RSE_130_Macros/MC_05_procedural_macros.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_01_unit_tests"
+# path = "RSE_140_Testing/TS_01_unit_tests.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_02_integration_tests"
+# path = "RSE_140_Testing/TS_02_integration_tests.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_03_benchmarks"
+# path = "RSE_140_Testing/TS_03_benchmarks.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_03_test_organization"
+# path = "RSE_140_Testing/TS_03_test_organization.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_04_benchmarks"
+# path = "RSE_140_Testing/TS_04_benchmarks.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_04_test_organization"
+# path = "RSE_140_Testing/TS_04_test_organization.rs"
+
+# [[example]]
+# name = "RSE_140_Testing__TS_05_test_utilities"
+# path = "RSE_140_Testing/TS_05_test_utilities.rs"
+
+# [[example]]
+# name = "RSE_150_Cargo__CG_01_cargo_overview"
+# path = "RSE_150_Cargo/CG_01_cargo_overview.rs"
+
+# [[example]]
+# name = "RSE_150_Cargo__CG_01_workspace"
+# path = "RSE_150_Cargo/CG_01_workspace.rs"
+
+# [[example]]
+# name = "RSE_150_Cargo__CG_02_build_profiles"
+# path = "RSE_150_Cargo/CG_02_build_profiles.rs"
+
+# [[example]]
+# name = "RSE_150_Cargo__CG_03_cargo_workspaces"
+# path = "RSE_150_Cargo/CG_03_cargo_workspaces.rs"
+
+# [[example]]
+# name = "RSE_150_Cargo__CG_03_conditional_compilation"
+# path = "RSE_150_Cargo/CG_03_conditional_compilation.rs"
+
+# [[example]]
+# name = "RSE_150_Cargo__CG_04_conditional_compilation"
+# path = "RSE_150_Cargo/CG_04_conditional_compilation.rs"
+
+# [[example]]
+# name = "RSE_160_Design_Patterns__DP_01_builder"
+# path = "RSE_160_Design_Patterns/DP_01_builder.rs"
+
+# [[example]]
+# name = "RSE_160_Design_Patterns__DP_02_factory"
+# path = "RSE_160_Design_Patterns/DP_02_factory.rs"
+
+# [[example]]
+# name = "RSE_160_Design_Patterns__DP_03_observer"
+# path = "RSE_160_Design_Patterns/DP_03_observer.rs"
+
+# [[example]]
+# name = "RSE_160_Design_Patterns__DP_04_strategy"
+# path = "RSE_160_Design_Patterns/DP_04_strategy.rs"
+
+# [[example]]
+# name = "RSE_160_Design_Patterns__DP_05_newtype"
+# path = "RSE_160_Design_Patterns/DP_05_newtype.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_01_ffi"
+# path = "RSE_170_System_Design/SD_01_ffi.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_01_memory_layout"
+# path = "RSE_170_System_Design/SD_01_memory_layout.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_02_memory_layout"
+# path = "RSE_170_System_Design/SD_02_memory_layout.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_02_networking"
+# path = "RSE_170_System_Design/SD_02_networking.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_03_file_io"
+# path = "RSE_170_System_Design/SD_03_file_io.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_03_networking"
+# path = "RSE_170_System_Design/SD_03_networking.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_04_io_operations"
+# path = "RSE_170_System_Design/SD_04_io_operations.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_04_serialization"
+# path = "RSE_170_System_Design/SD_04_serialization.rs"
+
+# [[example]]
+# name = "RSE_170_System_Design__SD_05_serialization"
+# path = "RSE_170_System_Design/SD_05_serialization.rs"
+
+# [[example]]
+# name = "RSE_180_Ecosystem__EC_01_serde"
+# path = "RSE_180_Ecosystem/EC_01_serde.rs"
+
+# [[example]]
+# name = "RSE_180_Ecosystem__EC_02_error_handling"
+# path = "RSE_180_Ecosystem/EC_02_error_handling.rs"
+
+# [[example]]
+# name = "RSE_180_Ecosystem__EC_02_tokio"
+# path = "RSE_180_Ecosystem/EC_02_tokio.rs"
+
+# [[example]]
+# name = "RSE_180_Ecosystem__EC_03_cli_patterns"
+# path = "RSE_180_Ecosystem/EC_03_cli_patterns.rs"
+
+# [[example]]
+# name = "RSE_180_Ecosystem__EC_03_reqwest"
+# path = "RSE_180_Ecosystem/EC_03_reqwest.rs"
+
+# [[example]]
+# name = "RSE_180_Ecosystem__EC_04_async_patterns"
+# path = "RSE_180_Ecosystem/EC_04_async_patterns.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__AD_01_unsafe"
+# path = "RSE_190_Advanced/AD_01_unsafe.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__AD_02_advanced_traits"
+# path = "RSE_190_Advanced/AD_02_advanced_traits.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__AD_03_const_generics"
+# path = "RSE_190_Advanced/AD_03_const_generics.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__AD_04_typestate"
+# path = "RSE_190_Advanced/AD_04_typestate.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__AD_05_advanced_enums"
+# path = "RSE_190_Advanced/AD_05_advanced_enums.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__AD_06_advanced_closures"
+# path = "RSE_190_Advanced/AD_06_advanced_closures.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__ADV_01_unsafe"
+# path = "RSE_190_Advanced/ADV_01_unsafe.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__ADV_02_advanced_traits"
+# path = "RSE_190_Advanced/ADV_02_advanced_traits.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__ADV_03_typestate"
+# path = "RSE_190_Advanced/ADV_03_typestate.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__ADV_04_const_generics"
+# path = "RSE_190_Advanced/ADV_04_const_generics.rs"
+
+# [[example]]
+# name = "RSE_190_Advanced__ADV_05_functional_patterns"
+# path = "RSE_190_Advanced/ADV_05_functional_patterns.rs"
