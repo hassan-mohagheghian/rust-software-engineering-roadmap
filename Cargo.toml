@@ -14,9 +14,9 @@ rust-version = "1.96.1"
 name = "RSE_000_Rust_Basics__RS_01_variables_and_mutability"
 path = "RSE_000_Rust_Basics/RS_01_variables_and_mutability.rs"
 
-# [[example]]
-# name = "RSE_000_Rust_Basics__RS_02_scalar_types"
-# path = "RSE_000_Rust_Basics/RS_02_scalar_types.rs"
+[[example]]
+name = "RSE_000_Rust_Basics__RS_02_scalar_types"
+path = "RSE_000_Rust_Basics/RS_02_scalar_types.rs"
 
 # [[example]]
 # name = "RSE_000_Rust_Basics__RS_03_compound_types"
