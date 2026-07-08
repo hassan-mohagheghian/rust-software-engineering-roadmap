@@ -22,9 +22,9 @@ path = "RSE_000_Rust_Basics/RS_02_scalar_types.rs"
 name = "RSE_000_Rust_Basics__RS_03_compound_types"
 path = "RSE_000_Rust_Basics/RS_03_compound_types.rs"
 
-# [[example]]
-# name = "RSE_000_Rust_Basics__RS_04_ownership"
-# path = "RSE_000_Rust_Basics/RS_04_ownership.rs"
+[[example]]
+name = "RSE_000_Rust_Basics__RS_04_ownership"
+path = "RSE_000_Rust_Basics/RS_04_ownership.rs"
 
 # [[example]]
 # name = "RSE_000_Rust_Basics__RS_05_borrowing_and_references"
