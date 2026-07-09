@@ -38,9 +38,9 @@ path = "RSE_000_Rust_Basics/RS_06_string_types.rs"
 name = "RSE_000_Rust_Basics__RS_07_scope_and_shadowing"
 path = "RSE_000_Rust_Basics/RS_07_scope_and_shadowing.rs"
 
-# [[example]]
-# name = "RSE_010_Functions__FN_01_basic_functions"
-# path = "RSE_010_Functions/FN_01_basic_functions.rs"
+[[example]]
+name = "RSE_010_Functions__FN_01_basic_functions"
+path = "RSE_010_Functions/FN_01_basic_functions.rs"
 
 # [[example]]
 # name = "RSE_010_Functions__FN_02_closures"
