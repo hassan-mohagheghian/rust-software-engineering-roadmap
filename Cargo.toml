@@ -54,9 +54,9 @@ path = "RSE_010_Functions/FN_03_iterator_basics.rs"
 name = "RSE_010_Functions__FN_04_function_pointers"
 path = "RSE_010_Functions/FN_04_function_pointers.rs"
 
-# [[example]]
-# name = "RSE_010_Functions__FN_05_closures_as_parameters"
-# path = "RSE_010_Functions/FN_05_closures_as_parameters.rs"
+[[example]]
+name = "RSE_010_Functions__FN_05_closures_as_parameters"
+path = "RSE_010_Functions/FN_05_closures_as_parameters.rs"
 
 # [[example]]
 # name = "RSE_010_Functions__FN_06_higher_order_functions"
