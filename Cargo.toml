@@ -74,9 +74,9 @@ path = "RSE_020_Control_Flow/CF_02_pattern_matching.rs"
 name = "RSE_020_Control_Flow__CF_03_if_let"
 path = "RSE_020_Control_Flow/CF_03_if_let.rs"
 
-# [[example]]
-# name = "RSE_020_Control_Flow__CF_04_while_let"
-# path = "RSE_020_Control_Flow/CF_04_while_let.rs"
+[[example]]
+name = "RSE_020_Control_Flow__CF_04_while_let"
+path = "RSE_020_Control_Flow/CF_04_while_let.rs"
 
 # [[example]]
 # name = "RSE_020_Control_Flow__CF_05_loop_expressions"
