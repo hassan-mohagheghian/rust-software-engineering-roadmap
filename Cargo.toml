@@ -82,13 +82,13 @@ path = "RSE_020_Control_Flow/CF_04_while_let.rs"
 name = "RSE_020_Control_Flow__CF_05_loop_expressions"
 path = "RSE_020_Control_Flow/CF_05_loop_expressions.rs"
 
-# [[example]]
-# name = "RSE_020_Control_Flow__CF_06_iterator_adapters"
-# path = "RSE_020_Control_Flow/CF_06_iterator_adapters.rs"
+[[example]]
+name = "RSE_020_Control_Flow__CF_06_iterator_adapters"
+path = "RSE_020_Control_Flow/CF_06_iterator_adapters.rs"
 
-# [[example]]
-# name = "RSE_030_Data_Structures__DS_01_structs"
-# path = "RSE_030_Data_Structures/DS_01_structs.rs"
+[[example]]
+name = "RSE_030_Data_Structures__DS_01_structs"
+path = "RSE_030_Data_Structures/DS_01_structs.rs"
 
 # [[example]]
 # name = "RSE_030_Data_Structures__DS_02_enums"
