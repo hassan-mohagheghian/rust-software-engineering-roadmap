@@ -90,9 +90,9 @@ path = "RSE_020_Control_Flow/CF_06_iterator_adapters.rs"
 name = "RSE_030_Data_Structures__DS_01_structs"
 path = "RSE_030_Data_Structures/DS_01_structs.rs"
 
-# [[example]]
-# name = "RSE_030_Data_Structures__DS_02_enums"
-# path = "RSE_030_Data_Structures/DS_02_enums.rs"
+[[example]]
+name = "RSE_030_Data_Structures__DS_02_enums"
+path = "RSE_030_Data_Structures/DS_02_enums.rs"
 
 # [[example]]
 # name = "RSE_030_Data_Structures__DS_03_tuples"
