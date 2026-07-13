@@ -94,9 +94,9 @@ path = "RSE_030_Data_Structures/DS_01_structs.rs"
 name = "RSE_030_Data_Structures__DS_02_enums"
 path = "RSE_030_Data_Structures/DS_02_enums.rs"
 
-# [[example]]
-# name = "RSE_030_Data_Structures__DS_03_tuples"
-# path = "RSE_030_Data_Structures/DS_03_tuples.rs"
+[[example]]
+name = "RSE_030_Data_Structures__DS_03_tuples"
+path = "RSE_030_Data_Structures/DS_03_tuples.rs"
 
 # [[example]]
 # name = "RSE_030_Data_Structures__DS_04_vectors"
