@@ -1,3 +1,21 @@
+[workspace]
+members = [
+    ".",
+    # "RSE_200_Tokio",
+    # "RSE_210_Serde",
+    # "RSE_220_Clap",
+    # "RSE_230_Logging",
+    # "RSE_240_HTTP_Client",
+    # "RSE_250_Database",
+    # "RSE_260_Utilities",
+    # "RSE_270_Middleware",
+    # "RSE_280_Axum",
+    # "RSE_290_Ratatui",
+    # "RSE_300_GUI",
+    # "RSE_310_Capstone",
+]
+resolver = "2"
+
 [package]
 name = "rust-software-engineering-roadmap"
 version = "0.1.0"
@@ -98,9 +116,9 @@ path = "RSE_030_Data_Structures/DS_02_enums.rs"
 name = "RSE_030_Data_Structures__DS_03_tuples"
 path = "RSE_030_Data_Structures/DS_03_tuples.rs"
 
-# [[example]]
-# name = "RSE_030_Data_Structures__DS_04_vectors"
-# path = "RSE_030_Data_Structures/DS_04_vectors.rs"
+[[example]]
+name = "RSE_030_Data_Structures__DS_04_vectors"
+path = "RSE_030_Data_Structures/DS_04_vectors.rs"
 
 # [[example]]
 # name = "RSE_030_Data_Structures__DS_05_hashmaps"

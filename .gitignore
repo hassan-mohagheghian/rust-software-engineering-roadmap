@@ -17,3 +17,6 @@ Thumbs.db
 # Environment
 .env
 .env.*
+
+# Extra
+codebook.toml
