@@ -132,18 +132,13 @@ path = "RSE_030_Data_Structures/DS_06_hashsets.rs"
 name = "RSE_040_Error_Handling__EH_01_result"
 path = "RSE_040_Error_Handling/EH_01_result.rs"
 
-
 [[example]]
 name = "RSE_040_Error_Handling__EH_02_option"
 path = "RSE_040_Error_Handling/EH_02_option.rs"
 
-# [[example]]
-# name = "RSE_040_Error_Handling__EH_02_option_type"
-# path = "RSE_040_Error_Handling/EH_02_option_type.rs"
-
-# [[example]]
-# name = "RSE_040_Error_Handling__EH_03_custom_errors"
-# path = "RSE_040_Error_Handling/EH_03_custom_errors.rs"
+[[example]]
+name = "RSE_040_Error_Handling__EH_03_custom_errors"
+path = "RSE_040_Error_Handling/EH_03_custom_errors.rs"
 
 # [[example]]
 # name = "RSE_040_Error_Handling__EH_04_panic_and_unwrap"
