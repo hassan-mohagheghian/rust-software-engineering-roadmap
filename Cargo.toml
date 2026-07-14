@@ -128,17 +128,14 @@ path = "RSE_030_Data_Structures/DS_05_hashmaps.rs"
 name = "RSE_030_Data_Structures__DS_06_hashsets"
 path = "RSE_030_Data_Structures/DS_06_hashsets.rs"
 
-# [[example]]
-# name = "RSE_040_Error_Handling__EH_01_result"
-# path = "RSE_040_Error_Handling/EH_01_result.rs"
+[[example]]
+name = "RSE_040_Error_Handling__EH_01_result"
+path = "RSE_040_Error_Handling/EH_01_result.rs"
 
-# [[example]]
-# name = "RSE_040_Error_Handling__EH_01_result_type"
-# path = "RSE_040_Error_Handling/EH_01_result_type.rs"
 
-# [[example]]
-# name = "RSE_040_Error_Handling__EH_02_option"
-# path = "RSE_040_Error_Handling/EH_02_option.rs"
+[[example]]
+name = "RSE_040_Error_Handling__EH_02_option"
+path = "RSE_040_Error_Handling/EH_02_option.rs"
 
 # [[example]]
 # name = "RSE_040_Error_Handling__EH_02_option_type"
